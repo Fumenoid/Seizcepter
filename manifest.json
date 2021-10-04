@@ -1,0 +1,22 @@
+{
+  "description": "Testing devtool pannel for web extension.",
+  "manifest_version": 2,
+  "name": "devtools-panels",
+  "version": "1.0",
+  "author": "Fumenoid & Karan senpai",
+  "homepage_url": "https://github.com/Fumenoid/",
+  "icons": {
+    "48": "icons/star.png"
+  },
+  
+  "background": {
+    "scripts": ["background_scripts/background.js"]
+  },
+  
+  "permissions": [
+      "<all_urls>"
+  ],
+  
+  "devtools_page": "devtools/devtools-page.html"
+
+}
